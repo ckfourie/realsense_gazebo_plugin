@@ -1,6 +1,9 @@
 # Intel RealSense Gazebo ROS plugin
 
 This package is a Gazebo ROS plugin for the Intel D435 realsense camera.
+
+Note: It has been modified from the original to only make nodes available if the sensor is directly simulated in Gazebo. This allows you to remove some sensors if you wish to speed up the simulation. 
+
  
 ## Acknowledgement
 

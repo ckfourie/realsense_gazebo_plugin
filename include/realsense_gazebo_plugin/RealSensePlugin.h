@@ -123,7 +123,7 @@ protected:
   event::ConnectionPtr updateConnection;
 
   std::map<std::string, CameraParams> cameraParamsMap_;
-
+  bool publishDepthImage_ = false;
   bool pointCloud_ = false;
   std::string pointCloudTopic_;
   double pointCloudCutOff_, pointCloudCutOffMax_;
